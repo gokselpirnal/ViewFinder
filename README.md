@@ -27,7 +27,7 @@ protected void onCreate(Bundle savedInstanceState) {
 ~~Button myButton = (Button) view.findViewById(R.id.my_button)~~
 
 ```java
-@FindViewGroup(R.layout.my_fragment)
+@FindLayout(R.layout.my_fragment)
 public class MyFragment extends Fragment {
 
     @FindView(R.id.my_text_view)
