@@ -11,14 +11,14 @@ import android.widget.Toast;
 
 import com.gokselpirnal.viewfinder.R;
 import com.gokselpirnal.viewfinder.viewfinder.FindView;
-import com.gokselpirnal.viewfinder.viewfinder.FindViewGroup;
+import com.gokselpirnal.viewfinder.viewfinder.FindLayout;
 import com.gokselpirnal.viewfinder.viewfinder.ViewFinder;
 
 /**
  * Created by gokselpirnal on 28/09/2016.
  */
 
-@FindViewGroup(R.layout.fragment_2)
+@FindLayout(R.layout.fragment_2)
 public class SampleFragment2 extends Fragment {
 
     @FindView(R.id.mesage_box)

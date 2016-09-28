@@ -31,7 +31,7 @@ public class ViewFinder {
 
     public static View bind(Fragment fragment, LayoutInflater layoutInflater, ViewGroup viewGroup) {
 
-        View view = layoutInflater.inflate(fragment.getClass().getAnnotation(FindViewGroup.class).value(), viewGroup, false);
+        View view = layoutInflater.inflate(fragment.getClass().getAnnotation(FindLayout.class).value(), viewGroup, false);
 
         for (Field field : fragment.getClass().getDeclaredFields()) {
             FindView annotation = field.getAnnotation(FindView.class);
@@ -48,4 +48,3 @@ public class ViewFinder {
     }
 
 }
-

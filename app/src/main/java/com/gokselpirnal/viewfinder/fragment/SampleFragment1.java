@@ -10,14 +10,14 @@ import android.widget.ImageView;
 
 import com.gokselpirnal.viewfinder.R;
 import com.gokselpirnal.viewfinder.viewfinder.FindView;
-import com.gokselpirnal.viewfinder.viewfinder.FindViewGroup;
+import com.gokselpirnal.viewfinder.viewfinder.FindLayout;
 import com.gokselpirnal.viewfinder.viewfinder.ViewFinder;
 
 /**
  * Created by gokselpirnal on 28/09/2016.
  */
 
-@FindViewGroup(R.layout.fragment_1)
+@FindLayout(R.layout.fragment_1)
 public class SampleFragment1 extends Fragment {
 
     @FindView(R.id.img_camera)
